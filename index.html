@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Client Clinic - Hair & Weight PRP</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="js/theme.js"></script>
+  <link rel="icon" href="images/Goodlife wellness clinic logo.jpg">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/Goodlife wellness clinic logo.jpg">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<script src="js/slider.js" defer></script>
+
+
+
+
+<body>
+  <!-- ================== NAVBAR ================== -->
+  <header class="site-header">
+    <nav class="navbar">
+      <!-- Logo / Brand -->
+      <div class="navbar__logo">
+        <a href="index.html" class="navbar__brand">
+          <img src="images/Goodlife wellness clinic logo.jpg" alt="Good Life Logo" class="navbar__logo-img">
+          <span class="navbar__logo-text">Good Life</span>
+        </a>
+      </div>
+
+      <!-- Theme Toggle Button -->
+      <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Night Mode">
+        <!-- Moon Icon -->
+        <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+        </svg>
+        <!-- Sun Icon -->
+        <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path
+            d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41">
+          </path>
+        </svg>
+      </button>
+
+      <!-- Hamburger checkbox (pure CSS toggle) -->
+      <input type="checkbox" id="nav-toggle" class="navbar__checkbox" />
+      <!-- Label that shows the hamburger icon -->
+      <label for="nav-toggle" class="navbar__button">
+        <span class="navbar__icon"></span>
+      </label>
+
+      <!-- Navigation links -->
+      <ul class="navbar__links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="services.html" class="nav-link">Services</a></li>
+        <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+        <li><a href="testimony.html" class="nav-link">Testimony</a></li>
+        <li><a href="about.html" class="nav-link">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <br>
+  <!-- ========== AUTO SLIDER BANNER ========== -->
+  <section class="banner">
+    <div class="banner-track" id="bannerTrack">
+      <img src="images/banner5.png" alt="Slide 1">
+      <img src="images/banner4.png" alt="Slide 2">
+      <img src="images/banner3.png" alt="Slide 3">
+      <img src="images/banner2.png" alt="Slide 4">
+      <img src="images/banner1.png" alt="Slide 5">
+    </div>
+    <button class="banner-prev" id="prevBtn">‹</button>
+
+    <button class="banner-next" id="nextBtn">›</button>
+  </section>
+
+
+
+
+  <!-- =============== HERO / BANNER SECTION =============== -->
+  <main id="home">
+    <br>
+    <section class="hero">
+      <div class="hero__content">
+        <h1>“Restoring Hair. Reviving Skin. Renewing Confidence.”</h1>
+        <p>
+          Welcome to GOODLIFE Wellness Clinic Your Journey to Radiance and Confidence Starts Here. ​Located in the heart
+          of Vashi.
+        </p>
+        <a href="contact.html" class="btn-primary">Contact us</a>
+      </div>
+
+    </section>
+    <!-- ========== VIDEO TESTIMONIAL SLIDER ========== -->
+    <section class="video-section">
+      <h2 class="video-title">Real Patients. Real Results.</h2>
+
+      <div class="video-slider">
+        <button class="video-btn prev" id="videoPrev">‹</button>
+
+        <div class="video-track" id="videoTrack">
+          <div class="video-card">
+            <video controls preload="metadata">
+              <source src="images/EXOSOMES.mp4" type="video/mp4">
+            </video>
+            <p>ADVANCE PRP- GFC EXOSOMES</p>
+          </div>
+
+          <div class="video-card">
+            <video controls preload="metadata">
+              <source src="images/SKIN PRP.mp4" type="video/mp4">
+            </video>
+            <p>Skin PRP</p>
+          </div>
+          <div class="video-card">
+            <video controls preload="metadata">
+              <source src="images/MESOTHERAPY.mp4" type="video/mp4">
+            </video>
+            <p>Mesotherapy</p>
+          </div>
+          <div class="video-card">
+            <video controls preload="metadata">
+              <source src="images/prp.mp4" type="video/mp4">
+            </video>
+            <p>PRP</p>
+          </div>
+          <div class="video-card">
+            <video controls preload="metadata">
+              <source src="images/QR678.mp4" type="video/mp4">
+            </video>
+            <p>QR678</p>
+          </div>
+
+        </div>
+
+        <button class="video-btn next" id="videoNext">›</button>
+      </div>
+    </section>
+
+    <section class="section testimony" id="testimony">
+
+      <div class="testimony__card">
+        <img src="images/Ansari Yooshe.jpg" alt="">
+        <p class="testimony__quote">
+          “I underwent GFC treatment followed by an exosome session, and the results were excellent. Hair fall reduced
+          significantly and hair quality improved a lot. Very satisfied with the outcome.”
+        </p>
+        <p class="testimony__name">— Yooshe Ansari</p>
+      </div>
+      <div class="testimony__card">
+        <img src="images/female35 lawyer.jpg" alt="">
+        <p class="testimony__quote">
+          “I underwent PRP treatment and I’m very satisfied with the results. Hair fall has reduced significantly and
+          hair quality has improved. Overall, a very good experience.”
+        </p>
+        <p class="testimony__name">— female. 35 years old</p>
+      </div>
+      </div>
+    </section>
+    <div class="testimony-action">
+      <a href="testimony.html" class="btn-primary btn-with-icon">
+        View More Testimony <span class="btn-icon">→</span>
+      </a>
+    </div>
+
+    <!-- =============== SERVICES SECTION =============== -->
+    <!-- <section class="section services" id="about">
+      <div class="section__header">
+        <h2>Our Services</h2>
+        <p>
+          We blend medical expertise with cutting-edge technology to provide personalized treatments that don’t just mask concerns—they solve them at the cellular level.
+        </p>
+      </div>
+
+      <div class="services__grid">
+        Service 1
+        <article class="service-card">
+          <h3>Hair PRP <br> (BIOTIN, GFC, EXOSOME)</h3>
+          <p>
+            Platelet-Rich Plasma therapy to stimulate hair follicles, improve scalp health, and support natural hair regrowth.
+          </p>
+        </article>
+
+        Service 2
+        <article class="service-card">
+          <h3>Dandruff Treatment</h3>
+          <p>
+            Effective dandruff treatment that removes flakes, soothes the scalp, and prevents recurrence.
+          </p>
+        </article>
+
+        Service 3
+        <article class="service-card">
+          <h3>Skin Glow & Renewal (skin PRP)</h3>
+          <p>
+            Skin PRP treatment that restores natural glow and improves skin texture. Rejuvenates your skin from within for a fresher, youthful appearance.
+          </p>
+        </article>
+        <a href="services.html" class="btn-primary">KNOW MORE ABOUT OUR SERVICES</a>
+        
+      </div>
+    </section> -->
+    <br>
+    <br>
+  </main>
+
+  <!-- =============== FOOTER MAIN (BLACK) =============== -->
+  <!-- =============== FOOTER MAIN =============== -->
+  <footer class="footer-main">
+    <div class="contact__note">
+
+      <p>
+        <i class="fa-solid fa-phone"></i>
+        <strong>Phone:</strong>
+        <a href="tel:+919372480072">+91-9372480072</a>
+      </p>
+
+      <p>
+        <i class="fa-brands fa-instagram"></i>
+        <strong>Instagram:</strong>
+        <a href="https://www.instagram.com/dr.sadafkande_" target="_blank">
+          @dr.sadafkande_
+        </a>
+      </p>
+
+      <p>
+        <i class="fa-solid fa-envelope"></i>
+        <strong>Email:</strong>
+        <a href="mailto:goodlifehomeopathyclinic@gmail.com">
+          goodlifehomeopathyclinic@gmail.com
+        </a>
+      </p>
+
+      <p>
+        <i class="fa-solid fa-envelope"></i>
+        <strong>Email:</strong>
+        <a href="mailto:dr.sadafamjadkande@gmail.com">
+          dr.sadafamjadkande@gmail.com
+        </a>
+      </p>
+
+      <p>
+        <i class="fa-solid fa-location-dot"></i>
+        <strong>Address:</strong>
+        GoodLife Wellness Clinic, SS4/246, Sector 2, Vashi, Navi Mumbai
+      </p>
+
+    </div>
+  </footer>
+
+  <!-- =============== FOOTER BOTTOM (COPYRIGHT) =============== -->
+  <footer class="footer-bottom">
+    <p>&copy; 2026 GoodLife Wellness Clinic. All rights reserved.</p>
+  </footer>
+
+
+
+</body>
+
+</html>
